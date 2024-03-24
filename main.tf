@@ -9,6 +9,7 @@ resource "aws_instance" "Amazon-Linux2-Server" {
   key_name      = "awslinux"
   tags = {
     Name = "Amazon-Linux2-VM"
+  }
 }
 
 resource "aws_instance" "Ubuntu_1" {
@@ -18,5 +19,5 @@ resource "aws_instance" "Ubuntu_1" {
   key_name      = "ubuntu"
   tags = {
     Name = "Ubuntu-VM"
- }
+  }
 }
